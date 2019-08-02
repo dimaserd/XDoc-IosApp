@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841AFB471FB1D0DE00601D76 /* SmartIDViewControllerObjCPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 841AFB451FB1D0DE00601D76 /* SmartIDViewControllerObjCPP.mm */; };
+		841AFB4A1FB1D0E600601D76 /* SmartIDViewControllerSwift.mm in Sources */ = {isa = PBXBuildFile; fileRef = 841AFB491FB1D0E600601D76 /* SmartIDViewControllerSwift.mm */; };
+		84391EB21FA84BF7000F5A79 /* SmartIDSampleAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84391EB11FA84BF7000F5A79 /* SmartIDSampleAppDelegate.mm */; };
+		84391EC01FA84BF7000F5A79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84391EBF1FA84BF7000F5A79 /* main.m */; };
+		84391EF41FA84D4A000F5A79 /* libsmartid-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84391EF31FA84D4A000F5A79 /* libsmartid-universal.a */; };
+		84391F201FA86D35000F5A79 /* data-zip in Resources */ = {isa = PBXBuildFile; fileRef = 84391F1F1FA86D35000F5A79 /* data-zip */; };
+		84391F541FA8A19E000F5A79 /* SmartIDSampleViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84391F531FA8A19E000F5A79 /* SmartIDSampleViewController.mm */; };
+		843B086F1FAB1E0800846E22 /* SmartIDRoiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B086E1FAB1E0700846E22 /* SmartIDRoiView.m */; };
+		8459FF902125C7E5009C05A7 /* SmartIDCaptureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8459FF8F2125C7E5009C05A7 /* SmartIDCaptureButton.m */; };
+		848FBE621FA8A99200C61581 /* SmartIDVideoProcessingEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848FBE421FA8A99200C61581 /* SmartIDVideoProcessingEngine.mm */; };
+		848FBE631FA8A99200C61581 /* SmartIDRecognitionCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848FBE431FA8A99200C61581 /* SmartIDRecognitionCore.mm */; };
+		848FBE641FA8A99200C61581 /* SmartIDViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848FBE461FA8A99200C61581 /* SmartIDViewController.mm */; };
+		848FBE661FA8A99200C61581 /* SmartIDViewController+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = 848FBE4A1FA8A99200C61581 /* SmartIDViewController+Protected.m */; };
+		848FBE681FA8A99200C61581 /* SmartIDQuadrangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848FBE501FA8A99200C61581 /* SmartIDQuadrangleView.m */; };
+		848FBE691FA8A99200C61581 /* SmartIDSessionSettings+CPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848FBE571FA8A99200C61581 /* SmartIDSessionSettings+CPP.mm */; };
+		848FBE6A1FA8A99200C61581 /* SmartIDRecognitionResult+CPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848FBE591FA8A99200C61581 /* SmartIDRecognitionResult+CPP.mm */; };
+		848FBE6B1FA8A99200C61581 /* SmartIDQuadrangle+CPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848FBE5A1FA8A99200C61581 /* SmartIDQuadrangle+CPP.mm */; };
+		848FBE6C1FA8A99200C61581 /* SmartIDCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 848FBE611FA8A99200C61581 /* SmartIDCameraManager.m */; };
+		84A43EA5201798E900FAC2E5 /* SmartIDVideoPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A43EA4201798E900FAC2E5 /* SmartIDVideoPreviewView.m */; };
+		84BA2C0C2019199900FE8431 /* RoiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA2C0A2019199800FE8431 /* RoiHelper.m */; };
+		84EFC585210A0EF100EDE932 /* SmartIDImage+CPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84EFC57B210A0EF100EDE932 /* SmartIDImage+CPP.mm */; };
+		84EFC586210A0EF100EDE932 /* SmartIDSegmentationResult+CPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84EFC57C210A0EF100EDE932 /* SmartIDSegmentationResult+CPP.mm */; };
+		84EFC587210A0EF100EDE932 /* SmartIDImageField+CPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84EFC580210A0EF100EDE932 /* SmartIDImageField+CPP.mm */; };
+		84EFC588210A0EF100EDE932 /* SmartIDStringField+CPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84EFC581210A0EF100EDE932 /* SmartIDStringField+CPP.mm */; };
+		84EFC589210A0EF100EDE932 /* SmartIDMatchResult+CPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84EFC584210A0EF100EDE932 /* SmartIDMatchResult+CPP.mm */; };
+		DBC19B3121D3BFCD000C81AB /* SmartIDProcessingFeedback+CPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBC19B3021D3BFCD000C81AB /* SmartIDProcessingFeedback+CPP.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		841AFB451FB1D0DE00601D76 /* SmartIDViewControllerObjCPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SmartIDViewControllerObjCPP.mm; sourceTree = "<group>"; };
+		841AFB461FB1D0DE00601D76 /* SmartIDViewControllerObjCPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDViewControllerObjCPP.h; sourceTree = "<group>"; };
+		841AFB481FB1D0E600601D76 /* SmartIDViewControllerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDViewControllerSwift.h; sourceTree = "<group>"; };
+		841AFB491FB1D0E600601D76 /* SmartIDViewControllerSwift.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SmartIDViewControllerSwift.mm; sourceTree = "<group>"; };
+		84391EAD1FA84BF7000F5A79 /* SESmartIDSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SESmartIDSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84391EB01FA84BF7000F5A79 /* SmartIDSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartIDSampleAppDelegate.h; sourceTree = "<group>"; };
+		84391EB11FA84BF7000F5A79 /* SmartIDSampleAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SmartIDSampleAppDelegate.mm; sourceTree = "<group>"; };
+		84391EBE1FA84BF7000F5A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84391EBF1FA84BF7000F5A79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84391EF31FA84D4A000F5A79 /* libsmartid-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsmartid-universal.a"; path = "../../../SESmartIDCore/lib/libsmartid-universal.a"; sourceTree = "<group>"; };
+		84391F1F1FA86D35000F5A79 /* data-zip */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "data-zip"; path = "../../SESmartIDCore/data-zip"; sourceTree = "<group>"; };
+		84391F521FA8A19E000F5A79 /* SmartIDSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDSampleViewController.h; sourceTree = "<group>"; };
+		84391F531FA8A19E000F5A79 /* SmartIDSampleViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SmartIDSampleViewController.mm; sourceTree = "<group>"; };
+		843B086D1FAB1E0700846E22 /* SmartIDRoiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDRoiView.h; sourceTree = "<group>"; };
+		843B086E1FAB1E0700846E22 /* SmartIDRoiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartIDRoiView.m; sourceTree = "<group>"; };
+		8459FF8E2125C7E5009C05A7 /* SmartIDCaptureButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDCaptureButton.h; sourceTree = "<group>"; };
+		8459FF8F2125C7E5009C05A7 /* SmartIDCaptureButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartIDCaptureButton.m; sourceTree = "<group>"; };
+		848FBE411FA8A99200C61581 /* SmartIDRecognitionCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDRecognitionCore.h; sourceTree = "<group>"; };
+		848FBE421FA8A99200C61581 /* SmartIDVideoProcessingEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SmartIDVideoProcessingEngine.mm; sourceTree = "<group>"; };
+		848FBE431FA8A99200C61581 /* SmartIDRecognitionCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SmartIDRecognitionCore.mm; sourceTree = "<group>"; };
+		848FBE441FA8A99200C61581 /* SmartIDVideoProcessingEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDVideoProcessingEngine.h; sourceTree = "<group>"; };
+		848FBE461FA8A99200C61581 /* SmartIDViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SmartIDViewController.mm; sourceTree = "<group>"; };
+		848FBE4A1FA8A99200C61581 /* SmartIDViewController+Protected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SmartIDViewController+Protected.m"; sourceTree = "<group>"; };
+		848FBE4E1FA8A99200C61581 /* SmartIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDViewController.h; sourceTree = "<group>"; };
+		848FBE501FA8A99200C61581 /* SmartIDQuadrangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartIDQuadrangleView.m; sourceTree = "<group>"; };
+		848FBE511FA8A99200C61581 /* SmartIDQuadrangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDQuadrangleView.h; sourceTree = "<group>"; };
+		848FBE521FA8A99200C61581 /* SmartIDViewController+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDViewController+Protected.h"; sourceTree = "<group>"; };
+		848FBE541FA8A99200C61581 /* SmartIDRecognitionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDRecognitionResult.h; sourceTree = "<group>"; };
+		848FBE551FA8A99200C61581 /* SmartIDQuadrangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDQuadrangle.h; sourceTree = "<group>"; };
+		848FBE571FA8A99200C61581 /* SmartIDSessionSettings+CPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SmartIDSessionSettings+CPP.mm"; sourceTree = "<group>"; };
+		848FBE581FA8A99200C61581 /* SmartIDSessionSettings+CPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDSessionSettings+CPP.h"; sourceTree = "<group>"; };
+		848FBE591FA8A99200C61581 /* SmartIDRecognitionResult+CPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SmartIDRecognitionResult+CPP.mm"; sourceTree = "<group>"; };
+		848FBE5A1FA8A99200C61581 /* SmartIDQuadrangle+CPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SmartIDQuadrangle+CPP.mm"; sourceTree = "<group>"; };
+		848FBE5B1FA8A99200C61581 /* SmartIDQuadrangle+CPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDQuadrangle+CPP.h"; sourceTree = "<group>"; };
+		848FBE5C1FA8A99200C61581 /* SmartIDRecognitionResult+CPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDRecognitionResult+CPP.h"; sourceTree = "<group>"; };
+		848FBE5D1FA8A99200C61581 /* SmartIDSessionSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDSessionSettings.h; sourceTree = "<group>"; };
+		848FBE5E1FA8A99200C61581 /* SmartID-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartID-Bridging-Header.h"; sourceTree = "<group>"; };
+		848FBE601FA8A99200C61581 /* SmartIDCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDCameraManager.h; sourceTree = "<group>"; };
+		848FBE611FA8A99200C61581 /* SmartIDCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartIDCameraManager.m; sourceTree = "<group>"; };
+		84A43EA3201798E900FAC2E5 /* SmartIDVideoPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDVideoPreviewView.h; sourceTree = "<group>"; };
+		84A43EA4201798E900FAC2E5 /* SmartIDVideoPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartIDVideoPreviewView.m; sourceTree = "<group>"; };
+		84BA2C0A2019199800FE8431 /* RoiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoiHelper.m; sourceTree = "<group>"; };
+		84BA2C0B2019199800FE8431 /* RoiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoiHelper.h; sourceTree = "<group>"; };
+		84EFC576210A0EEB00EDE932 /* SmartIDSegmentationResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDSegmentationResult.h; sourceTree = "<group>"; };
+		84EFC577210A0EEB00EDE932 /* SmartIDStringField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDStringField.h; sourceTree = "<group>"; };
+		84EFC578210A0EEB00EDE932 /* SmartIDMatchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDMatchResult.h; sourceTree = "<group>"; };
+		84EFC579210A0EEB00EDE932 /* SmartIDImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDImage.h; sourceTree = "<group>"; };
+		84EFC57A210A0EEB00EDE932 /* SmartIDImageField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDImageField.h; sourceTree = "<group>"; };
+		84EFC57B210A0EF100EDE932 /* SmartIDImage+CPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SmartIDImage+CPP.mm"; sourceTree = "<group>"; };
+		84EFC57C210A0EF100EDE932 /* SmartIDSegmentationResult+CPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SmartIDSegmentationResult+CPP.mm"; sourceTree = "<group>"; };
+		84EFC57D210A0EF100EDE932 /* SmartIDStringField+CPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDStringField+CPP.h"; sourceTree = "<group>"; };
+		84EFC57E210A0EF100EDE932 /* SmartIDMatchResult+CPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDMatchResult+CPP.h"; sourceTree = "<group>"; };
+		84EFC57F210A0EF100EDE932 /* SmartIDSegmentationResult+CPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDSegmentationResult+CPP.h"; sourceTree = "<group>"; };
+		84EFC580210A0EF100EDE932 /* SmartIDImageField+CPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SmartIDImageField+CPP.mm"; sourceTree = "<group>"; };
+		84EFC581210A0EF100EDE932 /* SmartIDStringField+CPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SmartIDStringField+CPP.mm"; sourceTree = "<group>"; };
+		84EFC582210A0EF100EDE932 /* SmartIDImage+CPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDImage+CPP.h"; sourceTree = "<group>"; };
+		84EFC583210A0EF100EDE932 /* SmartIDImageField+CPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDImageField+CPP.h"; sourceTree = "<group>"; };
+		84EFC584210A0EF100EDE932 /* SmartIDMatchResult+CPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SmartIDMatchResult+CPP.mm"; sourceTree = "<group>"; };
+		DBC19B2E21D3BFBC000C81AB /* SmartIDProcessingFeedback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartIDProcessingFeedback.h; sourceTree = "<group>"; };
+		DBC19B2F21D3BFCD000C81AB /* SmartIDProcessingFeedback+CPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDProcessingFeedback+CPP.h"; sourceTree = "<group>"; };
+		DBC19B3021D3BFCD000C81AB /* SmartIDProcessingFeedback+CPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SmartIDProcessingFeedback+CPP.mm"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84391EAA1FA84BF7000F5A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84391EF41FA84D4A000F5A79 /* libsmartid-universal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84391EA41FA84BF7000F5A79 = {
+			isa = PBXGroup;
+			children = (
+				84391F1F1FA86D35000F5A79 /* data-zip */,
+				848FBE3F1FA8A99200C61581 /* SESmartID */,
+				84391EAF1FA84BF7000F5A79 /* SESmartIDSample */,
+				84391EAE1FA84BF7000F5A79 /* Products */,
+				84391EF21FA84D49000F5A79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84391EAE1FA84BF7000F5A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84391EAD1FA84BF7000F5A79 /* SESmartIDSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84391EAF1FA84BF7000F5A79 /* SESmartIDSample */ = {
+			isa = PBXGroup;
+			children = (
+				84391F511FA89FA3000F5A79 /* Supporting Files */,
+				84391F521FA8A19E000F5A79 /* SmartIDSampleViewController.h */,
+				84391F531FA8A19E000F5A79 /* SmartIDSampleViewController.mm */,
+			);
+			path = SESmartIDSample;
+			sourceTree = "<group>";
+		};
+		84391EF21FA84D49000F5A79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84391EF31FA84D4A000F5A79 /* libsmartid-universal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84391F511FA89FA3000F5A79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84391EB01FA84BF7000F5A79 /* SmartIDSampleAppDelegate.h */,
+				84391EB11FA84BF7000F5A79 /* SmartIDSampleAppDelegate.mm */,
+				84391EBE1FA84BF7000F5A79 /* Info.plist */,
+				84391EBF1FA84BF7000F5A79 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		848FBE3F1FA8A99200C61581 /* SESmartID */ = {
+			isa = PBXGroup;
+			children = (
+				848FBE401FA8A99200C61581 /* Core */,
+				848FBE451FA8A99200C61581 /* Controller */,
+				848FBE531FA8A99200C61581 /* ObjCwrapped */,
+				848FBE5E1FA8A99200C61581 /* SmartID-Bridging-Header.h */,
+				848FBE5F1FA8A99200C61581 /* Media */,
+			);
+			name = SESmartID;
+			path = ../../SESmartID;
+			sourceTree = "<group>";
+		};
+		848FBE401FA8A99200C61581 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				848FBE411FA8A99200C61581 /* SmartIDRecognitionCore.h */,
+				848FBE431FA8A99200C61581 /* SmartIDRecognitionCore.mm */,
+				848FBE441FA8A99200C61581 /* SmartIDVideoProcessingEngine.h */,
+				848FBE421FA8A99200C61581 /* SmartIDVideoProcessingEngine.mm */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		848FBE451FA8A99200C61581 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				848FBE471FA8A99200C61581 /* ObjCPP */,
+				848FBE4B1FA8A99200C61581 /* Swift */,
+				848FBE4F1FA8A99200C61581 /* View */,
+				848FBE4E1FA8A99200C61581 /* SmartIDViewController.h */,
+				848FBE461FA8A99200C61581 /* SmartIDViewController.mm */,
+				848FBE521FA8A99200C61581 /* SmartIDViewController+Protected.h */,
+				848FBE4A1FA8A99200C61581 /* SmartIDViewController+Protected.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		848FBE471FA8A99200C61581 /* ObjCPP */ = {
+			isa = PBXGroup;
+			children = (
+				841AFB461FB1D0DE00601D76 /* SmartIDViewControllerObjCPP.h */,
+				841AFB451FB1D0DE00601D76 /* SmartIDViewControllerObjCPP.mm */,
+			);
+			path = ObjCPP;
+			sourceTree = "<group>";
+		};
+		848FBE4B1FA8A99200C61581 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				841AFB481FB1D0E600601D76 /* SmartIDViewControllerSwift.h */,
+				841AFB491FB1D0E600601D76 /* SmartIDViewControllerSwift.mm */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		848FBE4F1FA8A99200C61581 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8459FF8E2125C7E5009C05A7 /* SmartIDCaptureButton.h */,
+				8459FF8F2125C7E5009C05A7 /* SmartIDCaptureButton.m */,
+				84BA2C0B2019199800FE8431 /* RoiHelper.h */,
+				84BA2C0A2019199800FE8431 /* RoiHelper.m */,
+				843B086D1FAB1E0700846E22 /* SmartIDRoiView.h */,
+				843B086E1FAB1E0700846E22 /* SmartIDRoiView.m */,
+				848FBE511FA8A99200C61581 /* SmartIDQuadrangleView.h */,
+				848FBE501FA8A99200C61581 /* SmartIDQuadrangleView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		848FBE531FA8A99200C61581 /* ObjCwrapped */ = {
+			isa = PBXGroup;
+			children = (
+				84EFC579210A0EEB00EDE932 /* SmartIDImage.h */,
+				84EFC57A210A0EEB00EDE932 /* SmartIDImageField.h */,
+				84EFC578210A0EEB00EDE932 /* SmartIDMatchResult.h */,
+				84EFC576210A0EEB00EDE932 /* SmartIDSegmentationResult.h */,
+				DBC19B2E21D3BFBC000C81AB /* SmartIDProcessingFeedback.h */,
+				84EFC577210A0EEB00EDE932 /* SmartIDStringField.h */,
+				848FBE5D1FA8A99200C61581 /* SmartIDSessionSettings.h */,
+				848FBE541FA8A99200C61581 /* SmartIDRecognitionResult.h */,
+				848FBE551FA8A99200C61581 /* SmartIDQuadrangle.h */,
+				848FBE561FA8A99200C61581 /* Implementation */,
+			);
+			path = ObjCwrapped;
+			sourceTree = "<group>";
+		};
+		848FBE561FA8A99200C61581 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				84EFC582210A0EF100EDE932 /* SmartIDImage+CPP.h */,
+				84EFC57B210A0EF100EDE932 /* SmartIDImage+CPP.mm */,
+				84EFC583210A0EF100EDE932 /* SmartIDImageField+CPP.h */,
+				84EFC580210A0EF100EDE932 /* SmartIDImageField+CPP.mm */,
+				84EFC57E210A0EF100EDE932 /* SmartIDMatchResult+CPP.h */,
+				84EFC584210A0EF100EDE932 /* SmartIDMatchResult+CPP.mm */,
+				84EFC57F210A0EF100EDE932 /* SmartIDSegmentationResult+CPP.h */,
+				84EFC57C210A0EF100EDE932 /* SmartIDSegmentationResult+CPP.mm */,
+				DBC19B2F21D3BFCD000C81AB /* SmartIDProcessingFeedback+CPP.h */,
+				DBC19B3021D3BFCD000C81AB /* SmartIDProcessingFeedback+CPP.mm */,
+				84EFC57D210A0EF100EDE932 /* SmartIDStringField+CPP.h */,
+				84EFC581210A0EF100EDE932 /* SmartIDStringField+CPP.mm */,
+				848FBE581FA8A99200C61581 /* SmartIDSessionSettings+CPP.h */,
+				848FBE571FA8A99200C61581 /* SmartIDSessionSettings+CPP.mm */,
+				848FBE5C1FA8A99200C61581 /* SmartIDRecognitionResult+CPP.h */,
+				848FBE591FA8A99200C61581 /* SmartIDRecognitionResult+CPP.mm */,
+				848FBE5B1FA8A99200C61581 /* SmartIDQuadrangle+CPP.h */,
+				848FBE5A1FA8A99200C61581 /* SmartIDQuadrangle+CPP.mm */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		848FBE5F1FA8A99200C61581 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				84A43EA3201798E900FAC2E5 /* SmartIDVideoPreviewView.h */,
+				84A43EA4201798E900FAC2E5 /* SmartIDVideoPreviewView.m */,
+				848FBE601FA8A99200C61581 /* SmartIDCameraManager.h */,
+				848FBE611FA8A99200C61581 /* SmartIDCameraManager.m */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84391EAC1FA84BF7000F5A79 /* SESmartIDSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84391EC31FA84BF7000F5A79 /* Build configuration list for PBXNativeTarget "SESmartIDSample" */;
+			buildPhases = (
+				84391EA91FA84BF7000F5A79 /* Sources */,
+				84391EAA1FA84BF7000F5A79 /* Frameworks */,
+				84391EAB1FA84BF7000F5A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SESmartIDSample;
+			productName = SESmartIDSample;
+			productReference = 84391EAD1FA84BF7000F5A79 /* SESmartIDSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84391EA51FA84BF7000F5A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "biz.smartengines.smartid-reader";
+				TargetAttributes = {
+					84391EAC1FA84BF7000F5A79 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84391EA81FA84BF7000F5A79 /* Build configuration list for PBXProject "SESmartIDSample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84391EA41FA84BF7000F5A79;
+			productRefGroup = 84391EAE1FA84BF7000F5A79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84391EAC1FA84BF7000F5A79 /* SESmartIDSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84391EAB1FA84BF7000F5A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84391F201FA86D35000F5A79 /* data-zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84391EA91FA84BF7000F5A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC19B3121D3BFCD000C81AB /* SmartIDProcessingFeedback+CPP.mm in Sources */,
+				843B086F1FAB1E0800846E22 /* SmartIDRoiView.m in Sources */,
+				848FBE6C1FA8A99200C61581 /* SmartIDCameraManager.m in Sources */,
+				848FBE681FA8A99200C61581 /* SmartIDQuadrangleView.m in Sources */,
+				84391EC01FA84BF7000F5A79 /* main.m in Sources */,
+				84EFC588210A0EF100EDE932 /* SmartIDStringField+CPP.mm in Sources */,
+				848FBE641FA8A99200C61581 /* SmartIDViewController.mm in Sources */,
+				848FBE6A1FA8A99200C61581 /* SmartIDRecognitionResult+CPP.mm in Sources */,
+				848FBE621FA8A99200C61581 /* SmartIDVideoProcessingEngine.mm in Sources */,
+				848FBE661FA8A99200C61581 /* SmartIDViewController+Protected.m in Sources */,
+				84391F541FA8A19E000F5A79 /* SmartIDSampleViewController.mm in Sources */,
+				84EFC587210A0EF100EDE932 /* SmartIDImageField+CPP.mm in Sources */,
+				841AFB4A1FB1D0E600601D76 /* SmartIDViewControllerSwift.mm in Sources */,
+				848FBE6B1FA8A99200C61581 /* SmartIDQuadrangle+CPP.mm in Sources */,
+				84EFC586210A0EF100EDE932 /* SmartIDSegmentationResult+CPP.mm in Sources */,
+				841AFB471FB1D0DE00601D76 /* SmartIDViewControllerObjCPP.mm in Sources */,
+				84EFC589210A0EF100EDE932 /* SmartIDMatchResult+CPP.mm in Sources */,
+				84BA2C0C2019199900FE8431 /* RoiHelper.m in Sources */,
+				84A43EA5201798E900FAC2E5 /* SmartIDVideoPreviewView.m in Sources */,
+				84EFC585210A0EF100EDE932 /* SmartIDImage+CPP.mm in Sources */,
+				848FBE691FA8A99200C61581 /* SmartIDSessionSettings+CPP.mm in Sources */,
+				84391EB21FA84BF7000F5A79 /* SmartIDSampleAppDelegate.mm in Sources */,
+				848FBE631FA8A99200C61581 /* SmartIDRecognitionCore.mm in Sources */,
+				8459FF902125C7E5009C05A7 /* SmartIDCaptureButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84391EC11FA84BF7000F5A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84391EC21FA84BF7000F5A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84391EC41FA84BF7000F5A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WWNR4RF9QW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = $SRCROOT/../../SESmartIDCore/lib;
+				HEADER_SEARCH_PATHS = $SRCROOT/../../SESmartIDCore/include;
+				INFOPLIST_FILE = "$(SRCROOT)/SESmartIDSample/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = $SRCROOT/../../SESmartIDCore/lib;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.smartengines.SESmartIDSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84391EC51FA84BF7000F5A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WWNR4RF9QW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = $SRCROOT/../../SESmartIDCore/lib;
+				HEADER_SEARCH_PATHS = $SRCROOT/../../SESmartIDCore/include;
+				INFOPLIST_FILE = "$(SRCROOT)/SESmartIDSample/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = $SRCROOT/../../SESmartIDCore/lib;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.smartengines.SESmartIDSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84391EA81FA84BF7000F5A79 /* Build configuration list for PBXProject "SESmartIDSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84391EC11FA84BF7000F5A79 /* Debug */,
+				84391EC21FA84BF7000F5A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84391EC31FA84BF7000F5A79 /* Build configuration list for PBXNativeTarget "SESmartIDSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84391EC41FA84BF7000F5A79 /* Debug */,
+				84391EC51FA84BF7000F5A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84391EA51FA84BF7000F5A79 /* Project object */;
+}

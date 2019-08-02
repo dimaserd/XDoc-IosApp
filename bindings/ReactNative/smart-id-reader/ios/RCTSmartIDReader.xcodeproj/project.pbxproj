@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841F2A6E20650B7C00C3A5BF /* RCTSmartIDReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 841F2A6D20650B7C00C3A5BF /* RCTSmartIDReader.mm */; };
+		841F2A6F20650B7C00C3A5BF /* RCTSmartIDReader.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 841F2A6C20650B7C00C3A5BF /* RCTSmartIDReader.h */; };
+		846766C820CC868A00D20CE4 /* SmartIDVideoProcessingEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 846766A020CC868900D20CE4 /* SmartIDVideoProcessingEngine.mm */; };
+		846766C920CC868A00D20CE4 /* SmartIDRecognitionCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 846766A120CC868900D20CE4 /* SmartIDRecognitionCore.mm */; };
+		846766CA20CC868A00D20CE4 /* SmartIDVideoProcessingEngine+Crop.mm in Sources */ = {isa = PBXBuildFile; fileRef = 846766A220CC868900D20CE4 /* SmartIDVideoProcessingEngine+Crop.mm */; };
+		846766CB20CC868A00D20CE4 /* SmartIDViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 846766A620CC868900D20CE4 /* SmartIDViewController.mm */; };
+		846766CC20CC868A00D20CE4 /* SmartIDViewControllerObjCPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 846766A920CC868900D20CE4 /* SmartIDViewControllerObjCPP.mm */; };
+		846766CD20CC868A00D20CE4 /* SmartIDViewController+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = 846766AA20CC868900D20CE4 /* SmartIDViewController+Protected.m */; };
+		846766CE20CC868A00D20CE4 /* SmartIDViewControllerSwift.mm in Sources */ = {isa = PBXBuildFile; fileRef = 846766AD20CC868900D20CE4 /* SmartIDViewControllerSwift.mm */; };
+		846766CF20CC868A00D20CE4 /* SmartIDQuadrangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 846766B020CC868A00D20CE4 /* SmartIDQuadrangleView.m */; };
+		846766D020CC868A00D20CE4 /* SmartIDRoiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 846766B120CC868A00D20CE4 /* SmartIDRoiView.m */; };
+		846766D120CC868A00D20CE4 /* RoiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 846766B520CC868A00D20CE4 /* RoiHelper.m */; };
+		846766D220CC868A00D20CE4 /* SmartIDSessionSettings+CPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 846766BB20CC868A00D20CE4 /* SmartIDSessionSettings+CPP.mm */; };
+		846766D320CC868A00D20CE4 /* SmartIDRecognitionResult+CPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 846766BD20CC868A00D20CE4 /* SmartIDRecognitionResult+CPP.mm */; };
+		846766D420CC868A00D20CE4 /* SmartIDQuadrangle+CPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 846766BE20CC868A00D20CE4 /* SmartIDQuadrangle+CPP.mm */; };
+		846766D520CC868A00D20CE4 /* SmartIDVideoPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 846766C620CC868A00D20CE4 /* SmartIDVideoPreviewView.m */; };
+		846766D620CC868A00D20CE4 /* SmartIDCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 846766C720CC868A00D20CE4 /* SmartIDCameraManager.m */; };
+		84CD8A0020725BB90066257A /* SmartIDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD89FF20725BB90066257A /* SmartIDUtils.m */; };
+		84ECC7EF2091E222007DAF10 /* libsmartid-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECC7EE2091E221007DAF10 /* libsmartid-universal.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		841F2A6720650B7C00C3A5BF /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				841F2A6F20650B7C00C3A5BF /* RCTSmartIDReader.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		841F2A6920650B7C00C3A5BF /* libRCTSmartIDReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTSmartIDReader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		841F2A6C20650B7C00C3A5BF /* RCTSmartIDReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTSmartIDReader.h; sourceTree = "<group>"; };
+		841F2A6D20650B7C00C3A5BF /* RCTSmartIDReader.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTSmartIDReader.mm; sourceTree = "<group>"; };
+		8467669F20CC868900D20CE4 /* SmartIDRecognitionCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDRecognitionCore.h; sourceTree = "<group>"; };
+		846766A020CC868900D20CE4 /* SmartIDVideoProcessingEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SmartIDVideoProcessingEngine.mm; sourceTree = "<group>"; };
+		846766A120CC868900D20CE4 /* SmartIDRecognitionCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SmartIDRecognitionCore.mm; sourceTree = "<group>"; };
+		846766A220CC868900D20CE4 /* SmartIDVideoProcessingEngine+Crop.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SmartIDVideoProcessingEngine+Crop.mm"; sourceTree = "<group>"; };
+		846766A320CC868900D20CE4 /* SmartIDVideoProcessingEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDVideoProcessingEngine.h; sourceTree = "<group>"; };
+		846766A420CC868900D20CE4 /* SmartIDVideoProcessingEngine+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDVideoProcessingEngine+Crop.h"; sourceTree = "<group>"; };
+		846766A620CC868900D20CE4 /* SmartIDViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SmartIDViewController.mm; sourceTree = "<group>"; };
+		846766A820CC868900D20CE4 /* SmartIDViewControllerObjCPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDViewControllerObjCPP.h; sourceTree = "<group>"; };
+		846766A920CC868900D20CE4 /* SmartIDViewControllerObjCPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SmartIDViewControllerObjCPP.mm; sourceTree = "<group>"; };
+		846766AA20CC868900D20CE4 /* SmartIDViewController+Protected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SmartIDViewController+Protected.m"; sourceTree = "<group>"; };
+		846766AC20CC868900D20CE4 /* SmartIDViewControllerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDViewControllerSwift.h; sourceTree = "<group>"; };
+		846766AD20CC868900D20CE4 /* SmartIDViewControllerSwift.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SmartIDViewControllerSwift.mm; sourceTree = "<group>"; };
+		846766AE20CC868900D20CE4 /* SmartIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDViewController.h; sourceTree = "<group>"; };
+		846766B020CC868A00D20CE4 /* SmartIDQuadrangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartIDQuadrangleView.m; sourceTree = "<group>"; };
+		846766B120CC868A00D20CE4 /* SmartIDRoiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartIDRoiView.m; sourceTree = "<group>"; };
+		846766B220CC868A00D20CE4 /* RoiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoiHelper.h; sourceTree = "<group>"; };
+		846766B320CC868A00D20CE4 /* SmartIDRoiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDRoiView.h; sourceTree = "<group>"; };
+		846766B420CC868A00D20CE4 /* SmartIDQuadrangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDQuadrangleView.h; sourceTree = "<group>"; };
+		846766B520CC868A00D20CE4 /* RoiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoiHelper.m; sourceTree = "<group>"; };
+		846766B620CC868A00D20CE4 /* SmartIDViewController+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDViewController+Protected.h"; sourceTree = "<group>"; };
+		846766B820CC868A00D20CE4 /* SmartIDRecognitionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDRecognitionResult.h; sourceTree = "<group>"; };
+		846766B920CC868A00D20CE4 /* SmartIDQuadrangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDQuadrangle.h; sourceTree = "<group>"; };
+		846766BB20CC868A00D20CE4 /* SmartIDSessionSettings+CPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SmartIDSessionSettings+CPP.mm"; sourceTree = "<group>"; };
+		846766BC20CC868A00D20CE4 /* SmartIDSessionSettings+CPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDSessionSettings+CPP.h"; sourceTree = "<group>"; };
+		846766BD20CC868A00D20CE4 /* SmartIDRecognitionResult+CPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SmartIDRecognitionResult+CPP.mm"; sourceTree = "<group>"; };
+		846766BE20CC868A00D20CE4 /* SmartIDQuadrangle+CPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SmartIDQuadrangle+CPP.mm"; sourceTree = "<group>"; };
+		846766BF20CC868A00D20CE4 /* SmartIDQuadrangle+CPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDQuadrangle+CPP.h"; sourceTree = "<group>"; };
+		846766C020CC868A00D20CE4 /* SmartIDRecognitionResult+CPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartIDRecognitionResult+CPP.h"; sourceTree = "<group>"; };
+		846766C120CC868A00D20CE4 /* SmartIDSessionSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDSessionSettings.h; sourceTree = "<group>"; };
+		846766C220CC868A00D20CE4 /* SmartID-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartID-Bridging-Header.h"; sourceTree = "<group>"; };
+		846766C420CC868A00D20CE4 /* SmartIDVideoPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDVideoPreviewView.h; sourceTree = "<group>"; };
+		846766C520CC868A00D20CE4 /* SmartIDCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDCameraManager.h; sourceTree = "<group>"; };
+		846766C620CC868A00D20CE4 /* SmartIDVideoPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartIDVideoPreviewView.m; sourceTree = "<group>"; };
+		846766C720CC868A00D20CE4 /* SmartIDCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartIDCameraManager.m; sourceTree = "<group>"; };
+		84CD89FE20725BB90066257A /* SmartIDUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartIDUtils.h; sourceTree = "<group>"; };
+		84CD89FF20725BB90066257A /* SmartIDUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartIDUtils.m; sourceTree = "<group>"; };
+		84ECC7EE2091E221007DAF10 /* libsmartid-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsmartid-universal.a"; path = "../../../../SESmartIDCore/lib/libsmartid-universal.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841F2A6620650B7C00C3A5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ECC7EF2091E222007DAF10 /* libsmartid-universal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841F2A6020650B7C00C3A5BF = {
+			isa = PBXGroup;
+			children = (
+				8467669D20CC868900D20CE4 /* SESmartID */,
+				841F2A6B20650B7C00C3A5BF /* RCTSmartIDReader */,
+				841F2A6A20650B7C00C3A5BF /* Products */,
+				84BB856D206BD2A5006277B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		841F2A6A20650B7C00C3A5BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841F2A6920650B7C00C3A5BF /* libRCTSmartIDReader.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841F2A6B20650B7C00C3A5BF /* RCTSmartIDReader */ = {
+			isa = PBXGroup;
+			children = (
+				841F2A6C20650B7C00C3A5BF /* RCTSmartIDReader.h */,
+				841F2A6D20650B7C00C3A5BF /* RCTSmartIDReader.mm */,
+				84CD89FE20725BB90066257A /* SmartIDUtils.h */,
+				84CD89FF20725BB90066257A /* SmartIDUtils.m */,
+			);
+			path = RCTSmartIDReader;
+			sourceTree = "<group>";
+		};
+		8467669D20CC868900D20CE4 /* SESmartID */ = {
+			isa = PBXGroup;
+			children = (
+				8467669E20CC868900D20CE4 /* Core */,
+				846766A520CC868900D20CE4 /* Controller */,
+				846766B720CC868A00D20CE4 /* ObjCwrapped */,
+				846766C220CC868A00D20CE4 /* SmartID-Bridging-Header.h */,
+				846766C320CC868A00D20CE4 /* Media */,
+			);
+			name = SESmartID;
+			path = ../../../../SESmartID;
+			sourceTree = "<group>";
+		};
+		8467669E20CC868900D20CE4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8467669F20CC868900D20CE4 /* SmartIDRecognitionCore.h */,
+				846766A020CC868900D20CE4 /* SmartIDVideoProcessingEngine.mm */,
+				846766A120CC868900D20CE4 /* SmartIDRecognitionCore.mm */,
+				846766A220CC868900D20CE4 /* SmartIDVideoProcessingEngine+Crop.mm */,
+				846766A320CC868900D20CE4 /* SmartIDVideoProcessingEngine.h */,
+				846766A420CC868900D20CE4 /* SmartIDVideoProcessingEngine+Crop.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		846766A520CC868900D20CE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				846766A620CC868900D20CE4 /* SmartIDViewController.mm */,
+				846766A720CC868900D20CE4 /* ObjCPP */,
+				846766AA20CC868900D20CE4 /* SmartIDViewController+Protected.m */,
+				846766AB20CC868900D20CE4 /* Swift */,
+				846766AE20CC868900D20CE4 /* SmartIDViewController.h */,
+				846766AF20CC868900D20CE4 /* View */,
+				846766B620CC868A00D20CE4 /* SmartIDViewController+Protected.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		846766A720CC868900D20CE4 /* ObjCPP */ = {
+			isa = PBXGroup;
+			children = (
+				846766A820CC868900D20CE4 /* SmartIDViewControllerObjCPP.h */,
+				846766A920CC868900D20CE4 /* SmartIDViewControllerObjCPP.mm */,
+			);
+			path = ObjCPP;
+			sourceTree = "<group>";
+		};
+		846766AB20CC868900D20CE4 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				846766AC20CC868900D20CE4 /* SmartIDViewControllerSwift.h */,
+				846766AD20CC868900D20CE4 /* SmartIDViewControllerSwift.mm */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		846766AF20CC868900D20CE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				846766B020CC868A00D20CE4 /* SmartIDQuadrangleView.m */,
+				846766B120CC868A00D20CE4 /* SmartIDRoiView.m */,
+				846766B220CC868A00D20CE4 /* RoiHelper.h */,
+				846766B320CC868A00D20CE4 /* SmartIDRoiView.h */,
+				846766B420CC868A00D20CE4 /* SmartIDQuadrangleView.h */,
+				846766B520CC868A00D20CE4 /* RoiHelper.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		846766B720CC868A00D20CE4 /* ObjCwrapped */ = {
+			isa = PBXGroup;
+			children = (
+				846766B820CC868A00D20CE4 /* SmartIDRecognitionResult.h */,
+				846766B920CC868A00D20CE4 /* SmartIDQuadrangle.h */,
+				846766BA20CC868A00D20CE4 /* Implementation */,
+				846766C120CC868A00D20CE4 /* SmartIDSessionSettings.h */,
+			);
+			path = ObjCwrapped;
+			sourceTree = "<group>";
+		};
+		846766BA20CC868A00D20CE4 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				846766BB20CC868A00D20CE4 /* SmartIDSessionSettings+CPP.mm */,
+				846766BC20CC868A00D20CE4 /* SmartIDSessionSettings+CPP.h */,
+				846766BD20CC868A00D20CE4 /* SmartIDRecognitionResult+CPP.mm */,
+				846766BE20CC868A00D20CE4 /* SmartIDQuadrangle+CPP.mm */,
+				846766BF20CC868A00D20CE4 /* SmartIDQuadrangle+CPP.h */,
+				846766C020CC868A00D20CE4 /* SmartIDRecognitionResult+CPP.h */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		846766C320CC868A00D20CE4 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				846766C420CC868A00D20CE4 /* SmartIDVideoPreviewView.h */,
+				846766C520CC868A00D20CE4 /* SmartIDCameraManager.h */,
+				846766C620CC868A00D20CE4 /* SmartIDVideoPreviewView.m */,
+				846766C720CC868A00D20CE4 /* SmartIDCameraManager.m */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		84BB856D206BD2A5006277B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84ECC7EE2091E221007DAF10 /* libsmartid-universal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841F2A6820650B7C00C3A5BF /* RCTSmartIDReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841F2A7220650B7C00C3A5BF /* Build configuration list for PBXNativeTarget "RCTSmartIDReader" */;
+			buildPhases = (
+				841F2A6520650B7C00C3A5BF /* Sources */,
+				841F2A6620650B7C00C3A5BF /* Frameworks */,
+				841F2A6720650B7C00C3A5BF /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTSmartIDReader;
+			productName = RCTSmartIDReader;
+			productReference = 841F2A6920650B7C00C3A5BF /* libRCTSmartIDReader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841F2A6120650B7C00C3A5BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = se;
+				TargetAttributes = {
+					841F2A6820650B7C00C3A5BF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 841F2A6420650B7C00C3A5BF /* Build configuration list for PBXProject "RCTSmartIDReader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 841F2A6020650B7C00C3A5BF;
+			productRefGroup = 841F2A6A20650B7C00C3A5BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841F2A6820650B7C00C3A5BF /* RCTSmartIDReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841F2A6520650B7C00C3A5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846766C820CC868A00D20CE4 /* SmartIDVideoProcessingEngine.mm in Sources */,
+				846766CF20CC868A00D20CE4 /* SmartIDQuadrangleView.m in Sources */,
+				846766CB20CC868A00D20CE4 /* SmartIDViewController.mm in Sources */,
+				846766D420CC868A00D20CE4 /* SmartIDQuadrangle+CPP.mm in Sources */,
+				846766D020CC868A00D20CE4 /* SmartIDRoiView.m in Sources */,
+				846766D220CC868A00D20CE4 /* SmartIDSessionSettings+CPP.mm in Sources */,
+				846766CA20CC868A00D20CE4 /* SmartIDVideoProcessingEngine+Crop.mm in Sources */,
+				846766CC20CC868A00D20CE4 /* SmartIDViewControllerObjCPP.mm in Sources */,
+				846766D620CC868A00D20CE4 /* SmartIDCameraManager.m in Sources */,
+				846766CD20CC868A00D20CE4 /* SmartIDViewController+Protected.m in Sources */,
+				841F2A6E20650B7C00C3A5BF /* RCTSmartIDReader.mm in Sources */,
+				846766D120CC868A00D20CE4 /* RoiHelper.m in Sources */,
+				846766CE20CC868A00D20CE4 /* SmartIDViewControllerSwift.mm in Sources */,
+				846766D520CC868A00D20CE4 /* SmartIDVideoPreviewView.m in Sources */,
+				84CD8A0020725BB90066257A /* SmartIDUtils.m in Sources */,
+				846766C920CC868A00D20CE4 /* SmartIDRecognitionCore.mm in Sources */,
+				846766D320CC868A00D20CE4 /* SmartIDRecognitionResult+CPP.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		841F2A7020650B7C00C3A5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		841F2A7120650B7C00C3A5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841F2A7320650B7C00C3A5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WWNR4RF9QW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../../../SESmartIDCore/lib\"";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../../SESmartIDCore/include\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../SESmartIDCore/lib\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		841F2A7420650B7C00C3A5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WWNR4RF9QW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../../../SESmartIDCore/lib\"";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../../SESmartIDCore/include\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../SESmartIDCore/lib\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841F2A6420650B7C00C3A5BF /* Build configuration list for PBXProject "RCTSmartIDReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841F2A7020650B7C00C3A5BF /* Debug */,
+				841F2A7120650B7C00C3A5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841F2A7220650B7C00C3A5BF /* Build configuration list for PBXNativeTarget "RCTSmartIDReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841F2A7320650B7C00C3A5BF /* Debug */,
+				841F2A7420650B7C00C3A5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841F2A6120650B7C00C3A5BF /* Project object */;
+}
